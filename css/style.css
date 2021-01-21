@@ -1,0 +1,590 @@
+/*
+Template Name: Portfolio | CV | Resume - Html Template
+Author URI: https://themeforest.net/user/epic-themes
+Author Name: Epic Themes
+Version: 1.0
+*/
+
+/* --- TABLE OF CONTENT
+
+01. GENERAL LAYOUT
+02. MENU-NAV
+03. FOOTER
+04. HERO SECTION
+05. MEDIA QUERIES
+
+--- */
+
+/* ========================================================== */
+/* 			               01. GENERAL LAYOUT                 */
+/* ========================================================== */
+
+ul {
+	padding: 0;
+}
+
+ul, ol { 
+	list-style: none; 
+	list-style-image: none; 
+	margin: 0; 
+	padding: 0;
+	color:#858585;
+	font-size: 14px;
+	line-height:24px;
+	margin-bottom:20px;
+}
+	
+ul li, ol li{
+	font-size: 17px;
+	line-height: 28px;
+	font-family: 'Open Sans', sans-serif;
+	list-style-type: none;
+}
+
+ul li i{
+	vertical-align: middle;
+	padding-right: 5px;
+}
+
+p {
+	font-size: 17px;
+    line-height: 28px;
+	font-weight: 400;
+	color: #7c8595;
+	margin-bottom:15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover{
+	color: #017df7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom:20px;
+  color: #071e55;
+  font-weight: 500;
+}
+
+h1 {
+	font-size: 44px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 26px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+.title-small-margins{
+	margin-bottom: 5px!important;
+}
+
+.align-items-center{
+	text-align: center;
+}
+
+/* ========================================================== */
+/* 			               02. MENU-NAV                       */
+/* ========================================================== */
+
+.navbar-brand{
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	font-weight: 500;
+	color: #821156;
+}
+
+.navbar-brand:hover{
+	color: #821156;
+}
+
+.navbar-brand img{
+	width: 100%;
+    max-width: 200px;
+}
+
+/* ========================================================== */
+/* 			                03. FOOTER                        */
+/* ========================================================== */
+
+.footer{
+	position: relative;
+	overflow: hidden;
+    display: block;
+	padding: 30px 0 40px 0;
+}
+
+.footer p {
+	margin-bottom: 15px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+}
+
+.footer p > a {
+	font-size: 16px;
+	color: #000;
+	text-decoration:underline;
+}
+
+.footer p > a:hover {
+	color: #000;
+	text-decoration:underline;
+}
+
+span.template-name{
+	font-weight: bold;
+}
+
+/* Footer Social Icons */
+ul.footer_social{
+}
+
+ul.footer_social li{
+	display:inline-block;
+    margin:0 ;
+	line-height:100%!important;
+}
+
+ul.footer_social li a i {
+  display: inline-block;
+  margin:0 8px;
+  padding:0;
+  font-size:26px!important;
+  line-height: 26px!important;
+  color: #1e90ff;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+}
+
+ul.footer_social li a i.fa-twitter {
+  color: #4099ff;
+}
+
+ul.footer_social li a i.fa-pinterest {
+  color: #C92228;
+}
+
+ul.footer_social li a i.fa-facebook-square {
+  color: #3b5998;
+}
+
+ul.footer_social li a i.fa-instagram {
+  color: #8a3ab9;
+}
+
+ul.footer_social li a i.fa-skipe {
+  color: #00aff0;
+}
+
+ul.footer_social li a i.fa-dribble {
+  color: #ea4c89;
+}
+
+ul.footer_social li a i:hover {
+	color:#feb703!important;
+}
+
+.padding-top-20{
+	padding-top: 20px;
+}
+
+.padding-top-40{
+	padding-top: 40px;
+}
+
+/* ========================================================== */
+/* 			             04. HERO SECTION                     */
+/* ========================================================== */
+.main-content{
+	width:70%;
+	margin: 0 auto;
+}
+.hero-section {
+	position: relative;
+  	padding-top: 25px;
+  	padding-bottom: 37px;
+  	background-color: #fff;
+}
+
+.col-md-5.grey, .col-md-6.grey{
+	background-color: #000;
+	border-radius: 5px 0 0 5px;
+}
+
+.col-md-5.yellow, .col-md-6.yellow{
+	background-color: #feb703;
+	border-radius: 0 5px 5px 0;
+}
+
+/* -----  Left Wrapper ----- */
+.left-wrapper {
+	padding: 60px 50px;
+}
+
+.left-wrapper h1{
+	margin-bottom: 30px;
+	font-weight: 500;
+	font-size: 36px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.left-wrapper p{
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #fff;
+}
+
+.left-wrapper h1, .left-wrapper h2, .left-wrapper h3, .left-wrapper h4, .left-wrapper h5{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+span.yellow{
+	color: #feb703;
+	font-weight: 700;
+}
+
+.left-wrapper img {
+	width: 100%;
+	max-width: 360px;
+	margin-bottom: 25px;
+	border-radius: 50%;
+    box-shadow: 0px 8px 40px 0 rgba(0, 0, 0, 0.15);
+}
+
+.btn-dashed {
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #252525;
+	background-color: #feb703;
+	border: 2px solid #feb703;
+	border-radius: 5px 5px;
+	margin: 10px 10px 0 0;
+	padding: 16px 30px;
+	display: inline-block;
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+
+.btn-dashed:hover{color: #fff;
+	background-color: transparent;
+	border: 2px dashed #feb703;
+}
+
+.btn-dashed.small {
+	font-size: 16px;
+	padding: 10px 28px;
+}
+
+a.btn-dashed:visited, a.btn-dashed:focus{
+	color: #fff!important;
+}
+
+/* -----  Right Wrapper ----- */
+.right-wrapper {
+	padding: 60px 40px;
+}
+
+.right-wrapper h2{
+	margin-bottom: 15px;
+	font-weight: 700;
+	font-size: 24px;
+	color: #000;
+}
+
+.right-wrapper p{
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #000;
+}
+
+.right-wrapper h1, .right-wrapper h2, .right-wrapper h3, .right-wrapper h4, .right-wrapper h5{
+	color: #000;
+	text-transform: uppercase;
+}
+
+/* -----  Register ----- */
+.register-form{
+	margin-top: 30px;
+}
+
+input.register-input, select.register-input{
+	width: 100%!important;
+    height: 52px!important;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px!important;
+    color: #252525!important;
+    border: 1px solid #e5e5e5!important;
+    background-color: #f5f5f5!important;
+    font-size: 15px!important;
+    border-radius: 5px 5px 5px 5px!important;
+}
+
+textarea{
+	height:90px;
+	margin-bottom:9px;
+	width:100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:7px;
+    padding-bottom:7px;
+	color: #252525!important;
+    border: 1px solid #e5e5e5!important;
+    background-color: #f5f5f5!important;
+    font-size:15px;
+	-webkit-border-radius: 5px 5px;
+    -moz-border-radius: 5px 5px;
+    border-radius: 5px 5px;
+}
+
+input.register-submit{
+	background: #000;
+    border: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 535px;
+    padding: 16px 0;
+    text-transform: uppercase;
+    -webkit-border-radius: 3px 3px;
+    -moz-border-radius: 3px 3px;
+    border-radius: 3px 3px;
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+
+input.register-submit:hover{
+	background:#252525;
+	border-color:#252525;
+	transition: all .50s ease-in-out;
+	-moz-transition: all .50s ease-in-out;
+	-webkit-transition: all .50s ease-in-out;
+}
+
+#register-form input.register-input:focus, #register-form select.register-input:focus {
+  border-color:#e5e5e5!important;
+  color: #252525!important;
+  outline: none;
+}
+
+#register-form input.register-input:focus, #register-form select.register-input:focus {
+  border-color:#e5e5e5!important;
+  color: #252525!important;
+  outline: none;
+}
+
+input.white-input::-webkit-input-placeholder,
+textarea.white-input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#252525;
+}
+input.white-input:-moz-placeholder,
+textarea.white-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#252525;
+}
+input.white-input::-moz-placeholder,
+textarea.white-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#252525;
+}
+input.white-input:-ms-input-placeholder,
+textarea.white-input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#252525;
+}
+
+p.register_success_box{
+	display:inline-block;
+	color:#6b0a45;
+	border: 1px solid #6b0a45;
+	padding: 25px 25px;
+	font-size:19px;
+	text-shadow: none;
+	font-style:italic;
+	border-radius: 8px 8px;
+	margin:15px 0;
+}
+
+p.register-form-terms{
+	margin: 10px 0 5px 0;
+	font-size: 14px;
+	color: #000;
+    text-shadow: none;
+}
+
+/* ----- Fun Facts ----- */
+.fun-facts-box{
+	padding: 15px 0 17px 0;
+	margin: 7px 8px;
+	border: 2px solid #000;
+    -webkit-border-radius: 8px 8px;
+    -moz-border-radius: 8px 8px;
+    border-radius: 8px 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fun-facts-title{
+	font-size:14px!important;
+	line-height: 18px !important;
+	font-weight:400;
+	margin: 0!important;
+}
+
+.fun-facts-title span{
+	font-size:22px;
+	line-height:28px!important;
+	font-weight:600;
+}
+
+.fun-facts-box i{
+	font-size:32px;
+	line-height:32px;
+	color: #151515;
+}
+
+/* Freelancer Details */
+ul.freelancer-details {
+	width: 100%;
+	float: left;
+	text-align: left;
+    margin-bottom: 25px;
+}
+
+ul.freelancer-details li {
+	width: 100%;
+	float: left;
+	padding: 9px 0;
+	clear: both;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+ul.freelancer-details li a {
+	color: #252525;
+}
+
+ul.freelancer-details li a:hover {
+	color: #e52a3d;
+	text-decoration: underline;
+}
+
+ul.freelancer-details li span.freelancer-details-right {
+	float: right;
+}
+
+span.freelancer-main-details{
+	float: left;
+	margin-right: 12px;
+	padding-right: 12px;
+    color: #000;
+    font-weight: bold;
+    border-right: 1px solid #454545;
+    width: 100%;
+    max-width: 79px;
+}
+
+span.freelancer-second-details{
+	float: left;
+    color: #151515;
+}
+
+span.freelancer-second-details.myemail{
+	font-size: 15px;
+}
+.gmail{
+	margin-left:2rem;
+}
+/* d) Benefits List */
+ul.benefits {
+    margin-bottom: 20px;
+}
+
+ul.benefits li {
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 7px;
+    color: #c1c1c1;
+}
+
+ul.benefits li i {
+    font-size: 18px;
+    line-height: 18px;
+    margin-right: 1px;
+    color: #feb703;
+}
+
+/* ========================================================== */
+/* 			             05. MEDIA QUERIES                    */
+/* ========================================================== */
+
+@media (max-width: 991px) {}
+
+@media (max-width: 768px) {
+
+	.navbar-brand{
+		width: 100%;
+		max-width: 768px;
+		margin-top: 15px;
+		text-align: center!important;
+	}
+
+	.footer {
+		padding: 20px 0 30px 0;
+	}
+
+	ul.footer_social li a i {
+	    margin: 0 8px!important;
+	}
+
+	.top-margins-images{
+		margin-top: 50px;
+	}
+
+	.margin-right-15{
+		margin-bottom: 40px;
+	}
+
+}
+
+@media (max-width: 375px) {}
